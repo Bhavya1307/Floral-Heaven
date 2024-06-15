@@ -1,0 +1,232 @@
+/* Importing fonts from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Styling Body */
+body {
+    font-family: "Montserrat";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+/* Styling Header */
+header {
+    font-family: "Raleway";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 213, 0);
+    color: rgb(64, 29, 0);
+}
+
+/* Styling logo */
+header .logo {
+    height: 70px;
+    border-radius: 50px;
+}
+
+/* Styling title */
+.title {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    gap: 15px;
+}
+
+header h1 {
+    font-size: 42px;
+}
+
+/* Navigation bar */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    padding-right: 50px;
+    gap: 40px;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+/* Styling links */
+a {
+    text-decoration: none;
+    color: rgb(64, 29, 0);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fffbdf;
+}
+
+.main-content {
+    padding: 2em;
+    text-align: center;
+}
+
+.page-title {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.main-content div {
+    margin: 1em 0;
+}
+
+h1,
+h2 {
+    color: rgb(64, 29, 0);
+    padding-bottom: 5px;
+}
+
+.align {
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.align2 {
+    padding-top: 30px;
+}
+
+.align3 {
+    padding-top: 25px;
+}
+
+.align4 {
+    padding-bottom: 25px;
+}
+
+.trending {
+    background-color: #fffbdf;
+    padding: 2em;
+    border: 0.3em solid rgb(255, 213, 0);
+    border-radius: 30px;
+    text-align: center;
+}
+
+.trending-products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
+
+.flower-item {
+    flex: 1;
+    max-width: 30%;
+    margin: 1em;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(64, 29, 0);
+}
+
+.flower-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 1em;
+}
+
+.flower-item img:hover {
+    transform: scale(1.1);
+}
+
+.flower-item p {
+    margin: 0.5em 0;
+}
+
+.list {
+    padding-bottom: 20px;
+}
+
+li {
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.main-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: rgb(64, 29, 0);
+    background-color: rgb(255, 213, 0);
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+}
+
+.button:hover {
+    background-color: rgb(64, 29, 0);
+    color: #ffffff;
+}
+
+.flower-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 40px;
+}
+
+.flower-items {
+    border: 0.2em solid rgb(255, 213, 0);
+    border-radius: 30px;
+    background-color: #fffbdf;
+    padding: 20px;
+    text-align: center;
+}
+
+.flower-items img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+.owner img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="url"],
+textarea {
+    width: 50%;
+    padding: 10px;
+    border: 2px solid rgb(255, 213, 0);
+    border-radius: 5px;
+}
+
+footer {
+    font-family: "Raleway";
+    text-align: center;
+    padding: 0.8em;
+    width: 100%;
+    background-color: rgb(255, 213, 0);
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(64, 29, 0);
+}

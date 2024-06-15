@@ -1,0 +1,13 @@
+extends common/layout
+
+block layout-content 
+  .main-content 
+    h1.page-title Our Flowers
+    div.flower-grid
+      each flower in flowers
+        div.flower-items
+          h2 #{flower.name}
+          img(src=`${flower.image}`, alt=flower.name)
+          div #{flower.description}
+          div Price: $#{flower.price}
+          a.button(href="/flowers") Order Now

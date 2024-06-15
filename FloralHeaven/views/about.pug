@@ -1,0 +1,31 @@
+extends common/layout
+
+block layout-content 
+  .main-content 
+    div.align
+      div.align4
+        h1.page-title About FloralHeaven
+        p FloralHeaven is a flower shop dedicated to providing beautiful and unique flower arrangements for every occasion. We pride ourselves on our commitment to quality and customer satisfaction. Our skilled florists carefully select the freshest flowers to create stunning bouquets that will brighten up your day.
+        p Located in the heart of Toronto, FloralHeaven is more than just a flower shop - it's a destination for floral enthusiasts seeking exquisite blooms and personalized service. With a passion for creativity and a keen eye for design, our florists handcraft each arrangement with precision and care, ensuring that every bouquet is a work of art. At FloralHeaven, we understand that flowers have the power to convey emotions and create memorable experiences. Whether you're celebrating a birthday, anniversary, wedding, or simply want to brighten someone's day, our diverse selection of flowers offers something for every occasion and taste.
+        p Our dedication to quality extends beyond our floral arrangements to our customer service. We believe in going above and beyond to exceed our customers' expectations, from the moment they walk through our doors to the delivery of their carefully curated bouquet. Beyond providing exceptional flowers, FloralHeaven is committed to fostering a sense of community and connection. We cherish the relationships we've built with our customers over the years and take pride in being a trusted partner in life's special moments.
+        p Experience the beauty of nature in full bloom at FloralHeaven. Step into our shop and immerse yourself in a world of color, fragrance, and endless possibilities. Whether you're a seasoned flower enthusiast or a novice admirer, we invite you to join us on a journey of floral discovery and delight.
+      div.trending
+        div.owner
+          h1 Owner
+          img(src="/images/Bhavya.jpg", alt="Owner's Image - A guy wearing white shirt looking at his left side")
+          h2 Bhavya Patel
+          p As the founder of FloralHeaven, I am deeply passionate about flowers and the joy they bring to people's lives. I have dedicated myself to creating unique and beautiful arrangements that capture the essence of each moment. My journey with flowers began at a young age, inspired by the vibrant colors and delicate fragrances of nature. Today, I am proud to share my love for flowers with our customers, offering personalized service and attention to detail in every bouquet. When I'm not arranging flowers, you can find me exploring botanical gardens, seeking inspiration for our next creation. I believe that flowers have the power to uplift spirits, evoke emotions, and create unforgettable memories. It is my pleasure to share this passion with you and to bring a little piece of FloralHeaven into your life.
+      div.align3.align4
+        h2 Mission Statement 
+        p At FloralHeaven, our mission is simple yet profound: to spread joy and beauty through the timeless art of floral design. With each meticulously crafted arrangement, we strive to evoke emotions, ignite smiles, and create cherished memories for our customers. Our dedication to excellence drives us to select only the finest blooms, ensuring that every bouquet is a masterpiece of color, texture, and fragrance.
+        p Our values are deeply rooted in our commitment to quality, creativity, and customer satisfaction. We believe in the power of flowers to uplift spirits, celebrate life's milestones, and express heartfelt sentiments. Integrity, passion, and innovation are at the core of everything we do, guiding us as we continue to exceed expectations and inspire delight in every bouquet we create.
+      div.trending
+        h2 Connect With Us Today!
+        a.button(href="/flowers") Subscribe
+        h2 Any Questions? Feel Free To Ask!
+        form
+          label(for="email") Email:
+          input(type="text", id="email", required)
+          label(for="que") Question:
+          textarea(rows="5", id="que", required)
+          button.button(type="submit") Send
